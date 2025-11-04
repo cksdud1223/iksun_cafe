@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>소하염전🥐</title>
+    <style>
+        body {
+            background-color: #fdf6f0;      
+            font-family: "Pretendard", sans-serif;
+            margin: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* 글과 이미지 중앙 정렬 */
+        }
+
+        h1 {
+            color: #ff6f61;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        ol {
+            text-align: left;
+            max-width: 600px;
+            margin-bottom: 40px;
+            padding-left: 20px;
+        }
+
+        ol li {
+            margin-bottom: 10px;
+            font-size: 18px;
+            color: #333;
+        }
+
+        ol li a {
+            text-decoration: none;  
+            color: inherit;         
+            font-weight: bold;
+        }
+
+        ol li a:hover {
+            color: inherit;         
+        }
+
+        .desc {
+            font-size: 16px;
+            color: #555;
+            margin-left: 10px;
+        }
+
+        h2 {
+            color: #ff6f61;
+            margin-bottom: 20px;
+        }
+
+        h2:hover {
+            color: #ff3b2e;
+        }
+
+        /* 이미지 컨테이너 */
+        .img-container {
+            position: relative;
+            max-width: 600px;      /* 최대 너비 600px */
+            margin: 0 auto 40px;    /* 중앙 정렬 + 아래 여백 */
+            text-align: center;     /* overlay 텍스트 중앙 */
+        }
+
+        .iksun-img {
+            width: 100%;           /* 부모 폭에 맞게 늘어나면서 */
+            height: auto;          /* 종횡비 유지 */
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            display: block;        
+            transition: all 0.3s;
+        }
+
+        .iksun-img:hover {
+            opacity: 0.85;
+            transform: scale(1.02);
+        }
+
+        .overlay-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 16px;
+            font-weight: 500;
+            background-color: rgba(0,0,0,0.5);
+            padding: 8px 16px;
+            border-radius: 8px;
+            opacity: 0;
+            transition: opacity 0.3s;
+            pointer-events: none;
+        }
+
+        .img-container:hover .overlay-text {
+            opacity: 1;
+        }
+
+        p {
+            max-width: 600px;
+            font-size: 16px;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 600px) {
+            body { margin: 20px; }
+            h1 { font-size: 28px; }
+            ol li { font-size: 16px; }
+            .desc { font-size: 14px; }
+            h2 { font-size: 24px; }
+            .overlay-text { font-size: 12px; padding: 6px 12px; }
+            p { font-size: 14px; }
+        }
+    </style>
+</head>
+<body>
+
+    <h1><a href="0.html">익선동 카페 추천</a></h1>
+
+    <ol>
+        <li>
+            <a href="1.html">한옥랑솜🍰</a>
+            <span class="desc">– 아늑한 한옥 감성 카페</span>
+        </li>
+        <li>
+            <a href="2.html">소하염전🥐</a>
+            <span class="desc">– 바삭한 크루아상 맛집</span>
+        </li>
+        <li>
+            <a href="3.html">낙원역🚂</a>
+            <span class="desc">– 레트로 감성의 작은 카페</span>
+        </li>
+    </ol>
+
+    <h2>소하염전 🥐</h2>
+
+    <div class="img-container">
+        <a href="https://naver.me/5chuobxW" target="_blank">
+            <img class="iksun-img" src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzAyMjhfMjgy%2FMDAxNjc3NTkzNTA0Mjgy.w6bo3tsvBAkPUbrR0TfkxICm08ZA7cD6NLpihiKuZh4g.0srgle1rbGSvwniYGX4PicdrMvOoztaDu68qvxB5DsAg.JPEG.sonji1209%2FIMG_4763.JPG%23900x676" alt="소하염전 이미지">
+            <span class="overlay-text">둘러보기</span>
+        </a>
+    </div>
+
+    <p>
+        <strong>소하염전</strong>은 <u>바삭하고 풍미 가득한 크루아상과 페이스트리로 유명한</u> 카페입니다. 프랑스식 베이커리를 기본으로 하면서 한국식 감성을 더해, 익선동에서 색다른 빵 맛집으로 사랑받고 있습니다. 내부 공간은 밝고 깔끔하며, 테이크아웃뿐 아니라 내부에서 느긋하게 즐기기도 좋습니다.
+    </p>
+
+</body>
+</html>

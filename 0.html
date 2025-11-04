@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>(❁´◡`❁)</title>
+
+<style>
+    body {
+        background-color: #fdf6f0;      
+        font-family: "Pretendard", sans-serif;
+        margin: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1 {
+        color: #ff6f61;
+        font-size: 36px;
+        margin-bottom: 20px;
+        transition: color 0.3s;
+    }
+
+    h1 a { text-decoration: none; color: inherit; }
+    h1 a:hover { color: #ff3b2e; }
+
+    ol {
+        text-align: left;
+        max-width: 600px;
+        margin-bottom: 40px;
+        padding-left: 20px;
+    }
+
+    ol li {
+        margin-bottom: 10px;
+        font-size: 18px;
+        color: #333;
+        transition: color 0.3s;
+    }
+
+    ol li::marker { color: #ff6f61; font-weight: bold; }
+    ol li a { text-decoration: none; color: inherit; font-weight: bold; transition: color 0.3s; }
+    ol li a:hover { color: #ff6f61; }
+    .desc { font-size: 16px; color: #555; margin-left: 10px; transition: color 0.3s; }
+    ol li:hover .desc { color: #ff6f61; }
+
+    h2 { color: #ff6f61; margin-bottom: 20px; transition: color 0.3s; }
+    h2:hover { color: #ff3b2e; }
+
+    .img-container {
+        position: relative;
+        width: 80%;
+        max-width: 600px;
+        margin-bottom: 20px;
+    }
+
+    .iksun-img {
+        width: 100%;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        display: block;
+        transition: all 0.3s;
+    }
+
+    .iksun-img:hover { opacity: 0.85; transform: scale(1.02); }
+
+    .overlay-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 16px;
+        font-weight: 500;
+        background-color: rgba(0,0,0,0.5);
+        padding: 8px 16px;
+        border-radius: 8px;
+        opacity: 0;
+        transition: opacity 0.3s;
+        pointer-events: none;
+    }
+
+    .img-container:hover .overlay-text { opacity: 1; }
+
+    .description-text {
+        max-width: 600px;
+        text-align: left;
+        font-size: 16px;
+        color: #333;
+        line-height: 1.5;
+        margin-bottom: 40px;
+    }
+
+    @media (max-width: 600px) {
+        body { margin: 20px; }
+        h1 { font-size: 28px; }
+        ol li { font-size: 16px; }
+        .desc { font-size: 14px; }
+        .iksun-img { width: 100%; }
+        .overlay-text { font-size: 12px; padding: 6px 12px; }
+        .description-text { font-size: 14px; }
+    }
+</style>
+</head>
+<body>
+
+<h1><a href="0.html">익선동 카페 추천</a></h1>
+
+<ol>
+    <li>
+        <a href="1.html">한옥랑솜🍰</a>
+        <span class="desc">– 아늑한 한옥 감성 카페</span>
+    </li>
+    <li>
+        <a href="2.html">소하염전🥐</a>
+        <span class="desc">– 바삭한 크루아상 맛집</span>
+    </li>
+    <li>
+        <a href="3.html">낙원역🚂</a>
+        <span class="desc">– 레트로 감성의 작은 카페</span>
+    </li>
+</ol>
+
+<h2>익선동 카페 거리</h2>
+
+<div class="img-container">
+    <a href="https://tinyurl.com/5n8h8zhf" target="_blank">
+        <img src="https://tinyurl.com/y7ckkc4u" alt="익선동 거리" class="iksun-img">
+        <span class="overlay-text">둘러보기</span>
+    </a>
+</div>
+
+<div class="description-text">
+    <p>
+        서울 종로구에 자리한 익선동은 <u>옛 한옥이 많이 남아 있는 동네</u>로, 최근엔 감성 카페와 디저트 숍, 수공예 상점 등이 골목을 채우면서 <strong>‘한옥 카페거리’</strong>로 떠올랐습니다.
+    </p>
+    <p>
+        좁은 골목길 사이사이에 전통 한옥 건물이 남아 있어, 그 건물들을 리모델링한 카페와 상점들이 독특한 분위기를 만들어냅니다. 전통과 현대가 조화롭게 어우러진 공간에서 걷는 것만으로도 색다른 경험을 할 수 있습니다.
+    </p>
+    <p>
+        익선동은 규모가 크지 않아 골목 하나하나 천천히 걸으며 구경하는 것이 좋습니다. 카페마다 각기 다른 테마와 인테리어가 돋보이며, 사진 찍기 좋은 포인트가 많아 SNS에서도 인기가 높습니다. 베이커리 카페, 디저트 전문점, 전통 찻집 등 다양한 선택지가 있어 취향에 맞는 카페를 골라 방문할 수 있습니다.
+    </p>
+</div>
+
+</body>
+</html>

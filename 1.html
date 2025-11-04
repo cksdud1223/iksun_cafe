@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>한옥랑솜 🍰</title>
+    <style>
+        body {
+            background-color: #fdf6f0;      
+            font-family: "Pretendard", sans-serif;
+            margin: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            color: #ff6f61;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        ol {
+            text-align: left;
+            max-width: 600px;
+            margin-bottom: 40px;
+            padding-left: 20px;
+        }
+
+        ol li {
+            margin-bottom: 10px;
+            font-size: 18px;
+            color: #333;
+        }
+
+        ol li a {
+            text-decoration: none;  /* 밑줄 제거 */
+            color: inherit;         /* 글자색 유지 */
+            font-weight: bold;
+        }
+
+        ol li a:hover {
+            color: inherit;         /* 마우스 오버 시 색 변화 없음 */
+        }
+
+        .desc {
+            font-size: 16px;
+            color: #555;
+            margin-left: 10px;
+        }
+
+        h2 {
+            color: #ff6f61;
+            margin-bottom: 20px;
+        }
+
+        h2:hover {
+            color: #ff3b2e;
+        }
+
+        .img-container {
+            position: relative;
+            width: 80%;
+            max-width: 600px;
+            margin-bottom: 40px;
+        }
+
+        .iksun-img {
+            width: 100%;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            display: block;
+            transition: all 0.3s;
+        }
+
+        .iksun-img:hover {
+            opacity: 0.85;
+            transform: scale(1.02);
+        }
+
+        .overlay-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 16px;
+            font-weight: 500;
+            background-color: rgba(0,0,0,0.5);
+            padding: 8px 16px;
+            border-radius: 8px;
+            opacity: 0;
+            transition: opacity 0.3s;
+            pointer-events: none;
+        }
+
+        .img-container:hover .overlay-text {
+            opacity: 1;
+        }
+
+        p {
+            max-width: 600px;
+            font-size: 16px;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 600px) {
+            body { margin: 20px; }
+            h1 { font-size: 28px; }
+            ol li { font-size: 16px; }
+            .desc { font-size: 14px; }
+            h2 { font-size: 24px; }
+            .overlay-text { font-size: 12px; padding: 6px 12px; }
+            p { font-size: 14px; }
+        }
+    </style>
+</head>
+<body>
+
+    <h1><a href="0.html">익선동 카페 추천</a></h1>
+
+    <ol>
+        <li>
+            <a href="1.html">한옥랑솜🍰</a>
+            <span class="desc">– 아늑한 한옥 감성 카페</span>
+        </li>
+        <li>
+            <a href="2.html">소하염전🥐</a>
+            <span class="desc">– 바삭한 크루아상 맛집</span>
+        </li>
+        <li>
+            <a href="3.html">낙원역🚂</a>
+            <span class="desc">– 레트로 감성의 작은 카페</span>
+        </li>
+    </ol>
+
+    <h2>한옥랑솜 🍰</h2>
+
+    <div class="img-container">
+        <a href="https://naver.me/FjbnfABj" target="_blank">
+            <img src="https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240212_242%2F1707719652919dRzMW_JPEG%2F20230317_110053.jpg" alt="한옥랑솜 카페" class="iksun-img">
+            <span class="overlay-text">둘러보기</span>
+        </a>
+    </div>
+
+    <p>
+        한옥랑솜은 익선동의 한옥을 그대로 살린 아늑한 감성 카페입니다. 내부는 전통 한옥의 목재 구조와 따뜻한 조명으로 꾸며져 있어 편안하게 차를 마시며 휴식을 즐길 수 있습니다. 디저트 메뉴가 다양하며, <strong>특히 부드럽고 달콤한 티라미수</strong>가 인기입니다. 사진 찍기 좋은 포인트가 많아 인스타그램용으로도 추천되는 곳입니다.
+    </p>
+
+</body>
+</html>
